@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color:#89b0ae;
+    text-align:center;
+    padding:0.5rem;
+    color:rgb(230, 230, 230);
+}
+main{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#form-section{
+    width:25%;
+    padding:1.5rem;
+    min-width:300px;
+}
+#form-section label{
+    display:block;
+    margin:0.5rem 0;
+    font-size:1.2rem;
+    font-weight:500;
+
+}
+#form-section input{
+    display:block;
+    width:100%;
+    height:1.7rem;
+    border-radius:0.5rem;
+    border:none;
+    border: 2px solid #89b0ae;
+}
+
+#form-section input:focus{
+    background-color:#e4f1ef;
+}
+#table-section{
+    width:65%;
+    padding:1.5rem;
+}
+
+#table-section table{
+    width:100%;
+    text-align: center;
+    
+}
+#table-section table,th{
+    border: 2px solid #89b0ae;
+}
+
+.table-row{
+    border: 2px solid #89b0ae;
+}
+
+button{
+    padding:0.4rem 0.6rem;
+    display:inline-block;
+    margin:4px 8px;
+    border-radius:8px;
+    border:none;
+    color:white;
+}
+
+form button{
+    background-color:#567f7d;
+    display:block;
+    margin:1rem auto;
+    width:30%;
+}
+
+form button:hover{
+    background-color:#567f7d;
+
+}
+.delete{
+    background-color:#BC4B51;
+}
+.delete:hover{
+    background-color:#d5575d;
+}
+
+.edit{
+    background-color:#32533D;
+}
+
+.edit:hover{
+    background-color:#4f8962;
+}
+
+@media (max-width:850px){
+    #table-section, #form-section{
+        width:100%;
+    }
+}
+
+@media(max-width:450px){
+    #table-section{
+        overflow:scroll;
+    }
+}

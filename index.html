@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Segundo reto</title>
+</head>
+<body>
+    <header>
+        <h1>Segundo reto</h1>
+    </header>
+
+    <main>
+        <section id="form-section">
+            <h2>Ingrese la información</h2>
+            <form  id="formulario">
+                <label for="name">Nombre</label>
+                <input type="text" id="name">
+
+                <label for="amount">Cantidad</label>
+                <input type="number" id="amount">
+
+                <label for="price">Precio</label>
+                <input type="number" id="price">
+
+                <label for="category">Categoría</label>
+                <input type="text" id="category">
+
+                <input type="submit">
+            </form>
+        </section>
+        <section id="table-section">
+            <table>
+                <thead>
+                    <th>Nombre</th>
+                    <th>Precio</th>
+                    <th>Cantidad</th>
+                    <th>Categoría</th>
+                    <th>Botones</th>
+                </thead>
+                <tbody id="table-body">
+                    <tr class="table-row">
+                        <td>Pan</td>
+                        <td>2000</td>
+                        <td>4</td>
+                        <td>Panadería</td>
+                        <td><button class="delete">Eliminar</button>
+                            <button class="edit">Editar</button></td>
+                        
+                    </tr>
+                   
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <script src="./scripts/script.js" type="module"></script>
+</body>
+</html>
