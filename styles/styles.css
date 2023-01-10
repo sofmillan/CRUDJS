@@ -42,6 +42,15 @@ main{
 #form-section input:focus{
     background-color:#e4f1ef;
 }
+#form-section input:last-of-type{
+    margin-top:1rem;
+    font-size:1rem;
+    border: 2px solid #89b0ae;
+}
+#form-section input:last-of-type:hover{
+    background-color:#cbefeb;
+
+}
 #table-section{
     width:65%;
     padding:1.5rem;
@@ -63,23 +72,12 @@ main{
 button{
     padding:0.4rem 0.6rem;
     display:inline-block;
-    margin:4px 8px;
+    margin: 8px;
     border-radius:8px;
     border:none;
     color:white;
 }
 
-form button{
-    background-color:#567f7d;
-    display:block;
-    margin:1rem auto;
-    width:30%;
-}
-
-form button:hover{
-    background-color:#567f7d;
-
-}
 .delete{
     background-color:#BC4B51;
 }
